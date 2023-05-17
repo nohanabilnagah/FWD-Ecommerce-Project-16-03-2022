@@ -1,0 +1,8 @@
+file:src/main/resources/features/F08_SelectTags.feature:4
+file:src/main/resources/features/F09_CompareList.feature:4
+file:src/main/resources/features/F06_Categories.feature:4
+file:src/main/resources/features/F11_ShoppingCart.feature:4
+file:src/main/resources/features/F10_Wishlist.feature:4
+file:src/main/resources/features/F01_Registration.feature:4
+file:src/main/resources/features/F12_OrderCheckout.feature:4
+file:src/main/resources/features/F07_FilterColor.feature:4

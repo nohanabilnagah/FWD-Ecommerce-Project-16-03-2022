@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="12" time="104.868">
+<testcase classname="F01_Registration | New user could register" name="new user could register with valid data" time="4.726">
+<system-out><![CDATA[Given new user launch registration page.....................................passed
+And new user fills registration form with valid data........................passed
+When new user can register..................................................passed
+Then a success message is displayed.........................................passed
+And user logs out after registering.........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="F02_Login | User could use login functionality to open his account" name="user could login with valid email and password" time="6.218">
+<system-out><![CDATA[Given user navigates to login page..........................................passed
+When user can login with valid email and valid password.....................passed
+Then user could login successfully..........................................passed
+And logged user logs out....................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="F03_ResetPassword | User could reset his password" name="user reset his password successfully" time="8.458">
+<system-out><![CDATA[Given user navigates to login page..........................................passed
+Given user clicks on forgot password........................................passed
+When user enters his valid email address....................................passed
+And user clicks on recover button...........................................passed
+Then user got a Displayed Message...........................................passed
+And user could close the Notification Bar...................................passed
+]]></system-out>
+</testcase>
+<testcase classname="F04_Search | Logged user could search for any product on the website" name="Logged user could search by product name" time="4.08">
+<system-out><![CDATA[Given user navigates to login page..........................................passed
+And user can login with valid email and valid password......................passed
+When logged user clicks on search field.....................................passed
+And logged user searches with name of product...............................passed
+Then logged user could find relative results................................passed
+]]></system-out>
+</testcase>
+<testcase classname="F05_SwitchCurrency | Logged user could switch between currencies" name="Logged user could switch currency" time="8.687">
+<system-out><![CDATA[Given user selects a product................................................passed
+When user changes the currency..............................................passed
+Then user could find the selected currency..................................passed
+]]></system-out>
+</testcase>
+<testcase classname="F06_Categories | Logged user could select different Categories" name="Logged user could select random category then hover and open sub-Category" time="4.98">
+<system-out><![CDATA[Given logged user can select Random Category................................passed
+Then logged user could hover and open sub-Category..........................passed
+]]></system-out>
+</testcase>
+<testcase classname="F07_FilterColor | Logged user could filter with color" name="Logged user could filter product with color" time="4.187">
+<system-out><![CDATA[Given logged user selects Category and hover to open sub-Category...........passed
+When logged user can filter sub-Category with color.........................passed
+Then logged user could find product with the selected color.................passed
+]]></system-out>
+</testcase>
+<testcase classname="F08_SelectTags | Logged user could select different tags" name="Logged user could select different tags" time="7.132">
+<system-out><![CDATA[Given logged user can select a popular tag..................................passed
+When logged user finds products.............................................passed
+Then logged user could select a different tag...............................passed
+And logged user finds another different products............................passed
+]]></system-out>
+</testcase>
+<testcase classname="F09_CompareList | Logged user could add different products to Compare list" name="Logged user could add different products to Compare list" time="16.001">
+<system-out><![CDATA[Given logged user can add First Product to Compare list.....................passed
+And logged user can add Second Product to Compare list......................passed
+And logged user can add Third Product to Compare list.......................passed
+When logged user navigates to Compare products list.........................passed
+Then logged user could compare between the selected products................passed
+And logged user can clear a product from list...............................passed
+And logged user deletes all the list........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="F10_Wishlist | Logged user could add different products to Wishlist" name="Logged user could add different products to Wishlist" time="9.448">
+<system-out><![CDATA[Given logged user selects his favorite product..............................passed
+When logged user adds a product to the Wishlist.............................passed
+And logged user adds another product to the Wishlist........................passed
+Then logged user navigates to his Wishlist page.............................passed
+]]></system-out>
+</testcase>
+<testcase classname="F11_ShoppingCart | Logged user could add different products to Shopping Cart" name="Logged user could add different products to Shopping Cart" time="1.596">
+<system-out><![CDATA[Given logged user checks all his Wishlist products..........................passed
+Then logged user could add his Wishlist products to Shopping Cart...........passed
+]]></system-out>
+</testcase>
+<testcase classname="F12_OrderCheckout | Logged user could Create Successful Order" name="Logged user could Create Successful Order" time="21.856">
+<system-out><![CDATA[Given logged user agrees with terms and proceed to Checkout.................passed
+When logged user fills out Billing address to Create Order..................passed
+And logged user confirms Billing address....................................passed
+And logged user selects Shipping Method to Continue.........................passed
+And logged user selects Payment Method to Continue..........................passed
+When logged user fills out Payment Information..............................passed
+Then logged user could confirm his order....................................passed
+And logged user can check order details.....................................passed
+And logged user could save invoice..........................................passed
+And logged user could print invoice.........................................passed
+]]></system-out>
+</testcase>
+</testsuite>

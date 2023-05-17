@@ -1,0 +1,139 @@
+<html>
+<head>
+<title>TestNG:  Surefire test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Surefire test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>12/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Tue Mar 29 12:38:09 EET 2022</td>
+</tr>
+<tr><td>Total time:</td><td>105 seconds (105316 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='Runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: Runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Logged user could add different products to Wishlist", "Optional[F10_Wishlist | Logged user could add different products to Wishlist]"</td>
+<td></td>
+<td>9</td>
+<td>Runner.TestRunner@670b40af</td></tr>
+<tr>
+<td title='Runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: Runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "new user could register with valid data", "Optional[F01_Registration | New user could register]"</td>
+<td></td>
+<td>4</td>
+<td>Runner.TestRunner@670b40af</td></tr>
+<tr>
+<td title='Runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: Runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Logged user could add different products to Compare list", "Optional[F09_CompareList | Logged user could add different products to Compare list]"</td>
+<td></td>
+<td>16</td>
+<td>Runner.TestRunner@670b40af</td></tr>
+<tr>
+<td title='Runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: Runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Logged user could select random category then hover and open sub-Category", "Optional[F06_Categories | Logged user could select different Categories]"</td>
+<td></td>
+<td>4</td>
+<td>Runner.TestRunner@670b40af</td></tr>
+<tr>
+<td title='Runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: Runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Logged user could filter product with color", "Optional[F07_FilterColor | Logged user could filter with color]"</td>
+<td></td>
+<td>4</td>
+<td>Runner.TestRunner@670b40af</td></tr>
+<tr>
+<td title='Runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: Runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "user reset his password successfully", "Optional[F03_ResetPassword | User could reset his password]"</td>
+<td></td>
+<td>8</td>
+<td>Runner.TestRunner@670b40af</td></tr>
+<tr>
+<td title='Runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: Runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Logged user could select different tags", "Optional[F08_SelectTags | Logged user could select different tags]"</td>
+<td></td>
+<td>7</td>
+<td>Runner.TestRunner@670b40af</td></tr>
+<tr>
+<td title='Runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: Runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "user could login with valid email and password", "Optional[F02_Login | User could use login functionality to open his account]"</td>
+<td></td>
+<td>6</td>
+<td>Runner.TestRunner@670b40af</td></tr>
+<tr>
+<td title='Runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: Runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Logged user could add different products to Shopping Cart", "Optional[F11_ShoppingCart | Logged user could add different products to Shopping Cart]"</td>
+<td></td>
+<td>1</td>
+<td>Runner.TestRunner@670b40af</td></tr>
+<tr>
+<td title='Runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: Runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Logged user could Create Successful Order", "Optional[F12_OrderCheckout | Logged user could Create Successful Order]"</td>
+<td></td>
+<td>21</td>
+<td>Runner.TestRunner@670b40af</td></tr>
+<tr>
+<td title='Runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: Runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Logged user could switch currency", "Optional[F05_SwitchCurrency | Logged user could switch between currencies]"</td>
+<td></td>
+<td>8</td>
+<td>Runner.TestRunner@670b40af</td></tr>
+<tr>
+<td title='Runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: Runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Logged user could search by product name", "Optional[F04_Search | Logged user could search for any product on the website]"</td>
+<td></td>
+<td>4</td>
+<td>Runner.TestRunner@670b40af</td></tr>
+</table><p>
+</body>
+</html>
